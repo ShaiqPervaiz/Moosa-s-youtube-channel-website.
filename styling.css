@@ -1,0 +1,62 @@
+.center {
+    text-align: center;
+}
+body {
+        background: linear-gradient(to bottom, #ffffff, #00ff84);
+        margin: 0;
+        padding: 10;
+        height: 100vh;
+    }
+    .blue-text {
+    color: blue;
+}
+.red-text {
+    color: rgb(255, 47, 47);
+}
+.orange-text {
+    color: orange;
+}
+.purple-text {
+    color: rgb(137, 5, 137);
+}
+.pink-text {
+    color: rgb(255, 192, 246);
+}
+.navbar
+        .navbar a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: rgb(202, 98, 53);
+        }
+
+        .navbar a:hover {
+            color: rgb(25, 0, 255);
+        }
+        .navbar li{
+            display: block;
+        }
+        .navbar ul{
+            list-style-type: none;
+        }
+        .navbar ul ul{
+            display: none;
+        }
+        .navbar ul li:hover ul{
+            display: block;
+        }
+        .navbar ul li{
+            font-size: medium;
+            width: 200px;
+            color: rgb(0, 34, 255);
+            box-shadow: 3px black;
+        }
+        .navbar ul ul li{
+            margin-top: 5px;
+            border-top: 5px;
+        }
+.left{
+    text-align: left;
+}
